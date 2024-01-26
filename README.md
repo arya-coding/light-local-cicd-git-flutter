@@ -2,7 +2,7 @@
 # Light Local CI/CD for Flutter with Git
 
 
-Automate the Flutter development workflow by checking for new commits in a specific Git branch and executing Flutter commands accordingly. It uses a Python script to periodically check for new commits and, upon detecting a change, runs a series of Flutter commands to ensure the local environment is up-to-date with the latest codebase. It runs smoothly on W11 with Flutter 3.x, and a Samsung Android 13 connected in USB C for simulation. All Flutter logs are shown in the terminal. 
+Automate the Flutter development workflow by checking for new commits in a specific Git branch and executing Flutter commands accordingly. It uses a Python script to periodically check for new commits and, upon detecting a change, runs a series of Flutter commands to ensure the local environment is up-to-date with the latest codebase. It runs smoothly on W11 with Flutter 3.x, and a Samsung Android 13 connected in USB C for real debug device tests. All Flutter logs are shown in the terminal. 
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
