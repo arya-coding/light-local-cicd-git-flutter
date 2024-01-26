@@ -33,3 +33,6 @@ The script will start monitoring the specified Git branch for new commits every 
 ## Contributing
 Contributions to the `light-local-cicd-git-flutter` project are welcome. Before contributing, please ensure you have discussed your intended changes via issue.
 
+## Known issue 
+
+You might encounter, depending when the pull is detected by the program, have a short duration where the flutter run process is still running and outputting some logs. Don't worry, it will return an error at some point and the code will run smoothly.
